@@ -23,17 +23,24 @@
               class="player-choice"
               src="assets/paper.png"
               alt="paper-icon"
+              data-choice="paper"
             />
           </li>
           <li class="choice-item">
             <img
               class="player-choice"
               src="assets/scissor.png"
-              alt="paper-icon"
+              alt="scissor-icon"
+              data-choice="scissor"
             />
           </li>
           <li class="choice-item">
-            <img class="player-choice" src="assets/rock.png" alt="paper-icon" />
+            <img
+              class="player-choice"
+              src="assets/rock.png"
+              alt="rock-icon"
+              data-choice="rock"
+            />
           </li>
         </ul>
       </fieldset>
@@ -47,17 +54,19 @@
                 src="assets/waiting.gif"
                 alt="Player Icon choosen"
               />
-              <p class="player-score">Player:0</p>
+              <p class="player-score">Player: 0</p>
             </div>
           </li>
           <li class="score-computer">
             <div class="score-container">
               <img class="computer-choosen" src="assets/waiting.gif" alt="" />
-              <p class="computer-score">Computer:0</p>
+              <p class="computer-score">Computer: 0</p>
             </div>
           </li>
         </ul>
+        <img src="" alt="result" class="result-gif" width="100px" />
       </fieldset>
     </main>
   </body>
+  <script src="js/logic.js"></script>
 </html>
